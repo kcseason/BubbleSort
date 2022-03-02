@@ -11,6 +11,7 @@ namespace MultiThread1
     {
         static void Main(string[] args)
         {
+            //
             Thread td = new Thread(new ThreadStart(Test));
             td.IsBackground = true;
             td.Start();
