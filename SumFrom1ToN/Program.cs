@@ -10,6 +10,7 @@ namespace SumFrom1ToN
     {
         static void Main(string[] args)
         {
+            // ..
             int n = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine(Sum(n));
