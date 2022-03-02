@@ -10,7 +10,7 @@ namespace APlusB
     {
         static void Main(string[] args)
         {
-            // 。。。
+            // 。。。22
             string[] ss = Console.ReadLine().Split();
             Console.WriteLine(long.Parse(ss[0]) + long.Parse(ss[1]));
             Console.ReadLine();
